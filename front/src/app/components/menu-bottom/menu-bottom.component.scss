@@ -1,0 +1,44 @@
+.wrapper-menu {
+  background-color: #1A1C1D;
+  position: fixed;
+  width: 100%;
+  justify-content: center;
+  bottom: 0;
+  min-height: 5rem;
+  display: flex;
+  align-items: center;
+  z-index: 1;
+}
+
+.list-menu {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+
+  .btn-menu {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    padding: .5rem 1rem;
+    border-radius: .5rem;
+    transition: all ease 300ms;
+    &:hover{
+      background-color: rgb(255 255 255 / 24%);
+    }
+
+    button {
+      display: grid;
+      color: white;
+      cursor: pointer;
+      background-color: transparent;
+      border: 0;
+    }
+
+    .uil {
+      color: white;
+      font-size: 1.75rem;
+    }
+  }
+}
